@@ -1,7 +1,7 @@
 # Student-Management-System
 A student registration form that contains fields like:
-  •AutoField
-  •BooleanField
+  > •AutoField
+  > •BooleanField
   •CharField
   •EmailField
   •IntegerFieldAnd
