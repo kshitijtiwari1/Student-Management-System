@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}
+<title>Home</title>
+{% endblock title %}
+
+{% block content %}
+<div class="container fluid" style="display:flex;justify-content: center;color: white;">
+    <div class="card shadow"  style="width:880px;height:550px;border-radius: 1rem;background-image: url(https://wallpaperaccess.com/download/illustration-1625467);background-repeat: no-repeat;background-size: cover;">
+        <div class="card-title">
+            <h1 align="center" style="margin-top: 25px; font-family: Arial, Helvetica, sans-serif;">Home Page </label>
+        </div> 
+        
+        <div class="card-body" style="text-align: center;">
+            &NonBreakingSpace; &nbsp;
+          <h2>Hi {{user.username}}</h2>
+          
+        </div>
+    </div>
+</div>
+{% endblock content %}
